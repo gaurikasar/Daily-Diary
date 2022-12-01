@@ -1,0 +1,85 @@
+/** @format */
+.exerciseHeading {
+  display: flex;
+  justify-content: center;
+  margin-top: -0.5em;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.exerciseImageClass {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -1em;
+}
+
+.exerciseTextClass {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: inline-block;
+  align-self: center;
+  margin-top: 1em;
+  margin-left: -1em;
+}
+
+.mainExerciseClass {
+  width: 100%;
+  background-color: floralwhite;
+}
+
+.exercisePrevButtonClass {
+  background-color: #f4976c;
+  border-radius: 1em;
+  margin-top: -1em;
+  width: 5em;
+  margin-left: -1.5em;
+}
+
+.exerciseNextButtonClass {
+  background-color: #f4976c;
+  border-radius: 1em;
+  margin-top: -1em;
+  width: 5em;
+  margin-right: -1em;
+  margin-left: -0.7em;
+}
+
+.exerciseChangeClass {
+  display: inline-block;
+  align-self: center;
+  margin: 2em;
+}
+
+.exerciseTextDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: 1em;
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .exerciseChangeClass {
+    margin: 1em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .mainExerciseClass {
+    width: 50%;
+    background-color: floralwhite;
+  }
+
+  .exercisePrevButtonClass {
+    background-color: #f4976C;
+    border-radius: 1em;
+    margin-right: 10em;
+    margin-top: -1em;
+    width: 5em;
+    margin-left: -1.5em;
+  }
+
+}

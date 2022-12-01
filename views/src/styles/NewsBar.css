@@ -1,0 +1,28 @@
+/** @format */
+
+.newsSpan {
+  position: relative;
+  display: block;
+  text-align: left;
+  font-size: 1.5ch;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.newsClass {
+  background-color: #fbe8a6;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.latestNewsClass {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f4976c;
+  display: flex;
+  justify-content: center;
+}
+
+.newsDetailsClass {
+  color: brown;
+}

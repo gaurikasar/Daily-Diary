@@ -1,0 +1,53 @@
+/** @format */
+
+.waterTrackerHeading {
+  display: flex;
+  justify-content: center;
+  margin-top: -0.5em;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.waterClass {
+  margin: 1em;
+  display: flex;
+  justify-content: flex-start;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.waterTrackerClass {
+  width: 100%;
+  background-color: floralwhite;
+}
+
+.waterButtonClass {
+  background-color: #f4976c;
+  margin-top: 2.5em;
+  border-radius: 1em;
+}
+
+.waterPopupClass {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px solid black;
+  font-size: small;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.5em;
+  background-color: blanchedalmond;
+  border-color: bisque;
+}
+
+.waterButtonAndPopup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+[role="tooltip"].popup-content {
+  width: 20em;
+  height: 2em;
+  background-color: blanchedalmond;
+}

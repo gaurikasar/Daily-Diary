@@ -1,0 +1,98 @@
+/** @format */
+
+.navbar {
+  width: 100%;
+  height: 43px;
+  background-color: #91c4df;
+  display: inline-block;
+  align-items: right;
+  justify-content: space-between;
+}
+
+.navbar h1 h2 h3 h4 h5 {
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
+
+.white_btn1 {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.Resizer {
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+}
+
+.Resizer.horizontal:hover,
+.Resizer.horizontal.resizing {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover,
+.Resizer.vertical.resizing {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.DragLayer {
+  z-index: 1;
+  pointer-events: none;
+}
+
+.DragLayer.resizing {
+  pointer-events: auto;
+}
+
+.DragLayer.horizontal {
+  cursor: row-resize;
+}
+
+.DragLayer.vertical {
+  cursor: col-resize;
+}
+
+.sideActivities {
+  overflow-x: scroll;
+}
+
+.Mainfooter {
+  height: 0.5em;
+  background-color: #fbe8a6;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -1em;
+}

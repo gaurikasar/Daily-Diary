@@ -1,0 +1,25 @@
+/** @format */
+
+.content {
+  color: brown;
+  font: sans-serif;
+  font-size: 13px;
+  top: 0;
+  left: 0;
+  margin-top: -6em;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .content {
+    color: brown;
+    font: sans-serif;
+    font-size: 8px;
+    top: 0;
+    left: 0;
+    margin-top: -1.5em;
+    margin-left: -10px;
+    margin-bottom: 1em;
+  }
+}
