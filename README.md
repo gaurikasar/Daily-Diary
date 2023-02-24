@@ -12,3 +12,4 @@ This app will be like the first thing one would like to open on their laptops/de
 5. Upon successful build execute 'npm start'
 
 The application will be up and running at 'http://localhost:3000"
+![Screenshot](dailydiary.png)
